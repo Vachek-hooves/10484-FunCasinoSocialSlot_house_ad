@@ -5,5 +5,30 @@
   "interstitial_min_interval_ms": 60000,
   "interstitial_min_watch_ms": 5000,
   "rewarded_min_watch_ms": 15000,
-  "creatives": []
+  "creatives": [
+    {
+      "id": "pickering_casino_banner",
+      "format": "image",
+      "placements": ["banner"],
+      "image_url": "https://vachek-hooves.github.io/10484-FunCasinoSocialSlot_house_ad/media/banner_1.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY",
+      "bundle_id": "com.greatcanadian.casinoevening",
+      "store_url": "https://play.google.com/store/apps/details?id=com.greatcanadian.casinoevening",
+      "weight": 1
+    },
+    {
+      "id": "pickering_casino_fullscreen",
+      "format": "image",
+      "placements": ["interstitial", "rewarded"],
+      "image_url": "https://vachek-hooves.github.io/10484-FunCasinoSocialSlot_house_ad/media/fullscreen_1.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY",
+      "bundle_id": "com.greatcanadian.casinoevening",
+      "store_url": "https://play.google.com/store/apps/details?id=com.greatcanadian.casinoevening",
+      "weight": 1
+    }
+  ]
 }
